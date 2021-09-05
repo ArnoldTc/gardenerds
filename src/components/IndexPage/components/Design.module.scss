@@ -1,0 +1,32 @@
+@import '../../../variables.scss';
+@import '../../../mixins.scss';
+.design {
+  @include sectionDefaults;
+  padding: 60px 0;
+  .colNoPadding {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .content {
+    font-size: 18px;
+  }
+  .preTitle {
+    font-size: 19px;
+    color: $lightTextColor;
+  }
+  .title {
+    font-size: 24px;
+    color: $strongTextColor;
+  }
+}
+.pic {
+  padding-left: 0;
+  padding-right: 0;
+}
+.text {
+  margin-top: 10%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 10px;
+  color: $mediumTextColor;
+}

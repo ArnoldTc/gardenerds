@@ -1,0 +1,43 @@
+@import '../../../variables.scss';
+@import '../../../mixins.scss';
+.maintenance {
+  @include sectionDefaults;
+  min-height: 590px;
+}
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+.column {
+  height: fit-content;
+  border: 1px solid black;
+  flex: 1;
+  margin-bottom: auto;
+  margin-top: 65px;
+}
+.pic {
+  max-height: 200px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+@media (min-width: 768px) {
+  .column:hover {
+    margin-top: 0;
+    flex: 2;
+    background-color: darkgray;
+    .pic {
+      max-height: 330px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+  .column {
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+}

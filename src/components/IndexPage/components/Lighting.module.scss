@@ -1,0 +1,47 @@
+@import '../../../variables.scss';
+@import '../../../mixins.scss';
+
+.lighting {
+  @include sectionDefaults;
+}
+.title {
+  font-size: 18px;
+}
+.content {
+  margin-top: 20px;
+  color: #ffffff;
+}
+.day {
+  padding: 20px;
+  background-image: url('./components/day.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  height: 70vh;
+  padding-top: 50vh;
+}
+.night {
+  padding: 20px;
+  background-image: url('./components/night.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 70vh;
+  padding-top: 50vh;
+}
+.contentText {
+  background-color: #2b44009e;
+  padding: 20px;
+}
+
+@media (max-width: 768px) {
+  .night {
+    height: 50vh;
+    padding-top: 20px;
+  }
+  .day {
+    height: 50vh;
+    padding-top: 20px;
+  }
+}

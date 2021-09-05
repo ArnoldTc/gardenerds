@@ -1,0 +1,15 @@
+@import '../../../variables.scss';
+@import '../../../mixins.scss';
+
+.execute {
+  background-image: url('./components/bgimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #ffffff;
+  @include sectionDefaults;
+  .bg {
+    padding: 30px;
+    background-color: #2b44009e;
+  }
+}

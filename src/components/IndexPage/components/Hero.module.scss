@@ -1,0 +1,70 @@
+.image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  -webkit-animation: feature-bg-anim 0.6s ease-in-out;
+  animation: feature-bg-anim 0.6s ease-in-out;
+}
+.shadow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(32, 26, 22, 0.7);
+  z-index: 99;
+}
+.heroBottom {
+  padding-top: 40vh;
+}
+.description {
+  animation: feature-text-anim 0.75s ease-in-out;
+  z-index: 100;
+  position: relative;
+  width: 100%;
+  max-width: 956px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+}
+.brand {
+  font-family: futura-pt;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  line-height: 1.3em;
+  color: #9c9999;
+  margin: 20px auto;
+  -webkit-transform: translatez(0);
+}
+.text {
+  font-family: futura-pt;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 28px;
+  letter-spacing: 0px;
+  text-transform: none;
+  line-height: 1.1em;
+  color: #fff;
+}
+.hero {
+  position: relative;
+  height: 75vh;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .hero {
+    height: 51vh;
+  }
+  .heroBottom {
+    padding-top: 15vh;
+  }
+}

@@ -1,0 +1,43 @@
+@import 'node_modules/bootstrap/scss/bootstrap';
+$primary: #c2c2c2fa;
+$dark: #2b4400fa;
+$light: #acacac;
+$font-weight-normal: 700;
+$ItemTitle-fs: 26px;
+$minHeight: 500px;
+$scroll-top: 55px;
+$border-paddig-top: 40px 5%;
+$mBorder-paddig-top: 30px 5%;
+$nav-link-color: #2b4400fa;
+$nav-link-hover-color: #2b4400fa;
+$nav-tabs-link-active-bg: #80808080;
+$navbar-nav-link-padding-x: 0;
+$strongTextColor: #222;
+$mediumTextColor: #333;
+$lightTextColor: #444;
+
+//Navbar
+$navbar-padding-x: 30px;
+$navbar-dark-color: #c2c2c2fa !important;
+$navbar-dark-active-color: #2b4400fa !important;
+
+//Nav link buttons
+$nav-link-font-weight: 600;
+$nav-link-padding-x: 0.5rem;
+$nav-link-padding-y: 5px;
+$nav-link-font-size: 13px;
+
+//Carousel defaults
+$carousel-indicator-width: 300;
+$carousel-indicator-height: 300;
+$carousel-indicator-active-bg: #000000;
+$carousel-indicator-active-opacity: 0;
+$carousel-control-width: 5%;
+$card-bg: #00000000;
+$card-border-width: 0;
+
+//containers
+$container-max-width: 95%;
+
+//tables
+$table-border-width: 0;

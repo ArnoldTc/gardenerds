@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@mixin border {
+  padding: 30px 0;
+}
+@mixin sectionDefaults {
+  font-family: 'Noto Sans', sans-serif;
+  min-height: $minHeight;
+  max-width: 100%;
+  padding: $border-paddig-top;
+  scroll-margin-top: $scroll-top;
+  @media (max-width: 768px) {
+    padding: $mBorder-paddig-top;
+  }
+}

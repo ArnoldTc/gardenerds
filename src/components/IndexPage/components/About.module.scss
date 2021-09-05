@@ -1,0 +1,40 @@
+@import '../../../variables.scss';
+@import '../../../mixins.scss';
+.about {
+  @include sectionDefaults;
+  background-image: url('./components/bgimage.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #ffffff;
+}
+.pics {
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 90px;
+  max-width: 130px;
+  padding-top: 10px;
+  fill: #ffffff;
+}
+.card {
+  background-color: #2b4400b3;
+  padding: 10px 10px;
+  height: 240px;
+  border: none;
+  margin-bottom: 30px;
+}
+.sub {
+  margin-top: 50px;
+  background-color: #2b44009e;
+  padding: 20px;
+}
+@media (max-width: 768px) {
+  .pics {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .card {
+    margin-bottom: 20px;
+  }
+}
